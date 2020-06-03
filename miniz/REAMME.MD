@@ -13,6 +13,6 @@
 
 
 2. linux下
-    - 压缩 ./miniz.exe -l10 c TY38_EPS_Check.bin bank1app.zip
-    - 解压 ./miniz.exe -l10 d bank1app.zip unzip.bin
+    - 压缩 ./miniz -l10 c TY38_EPS_Check.bin bank1app.zip
+    - 解压 ./miniz -l10 d bank1app.zip unzip.bin
     - 比对 使用二进制比对工具 010 Editor比对文件TY38_EPS_Check.bin和unzip.bin是否完全一致.
